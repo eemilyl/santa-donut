@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/express-app
-  - source: /views
+  - source: /santa-donut/views
     destination: /home/ec2-user/express-app
 hooks:
   ApplicationStop:
