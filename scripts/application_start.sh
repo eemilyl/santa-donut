@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo chmod -R 777 /home/ec2-user/express-app
+
 
 #navigate into our working directory where we have all our github file 
 cd /home/ec2-user/express-app
