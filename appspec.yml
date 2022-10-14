@@ -3,10 +3,12 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/express-app
+  - source: /views
+    destination: /home/ec2-user/express-app
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
-      timeout: 300
+      timeout: 300S
       runas: ec2-user
   BeforeInstall:
     - location: scripts/before_install.sh
