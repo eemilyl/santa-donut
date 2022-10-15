@@ -12,8 +12,6 @@ export NVM_DIR="$Home/.nvm"
 
 sudo yum install -y nodejs
 
-
-
 #install node modules
 npm install
 npm i knex
