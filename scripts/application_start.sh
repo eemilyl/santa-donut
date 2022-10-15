@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#navigate into our working directory where we have all our github files
+#navigate into our working directory where we have all our github file
 cd /home/ec2-user/express-app
 
 #add npm and node to path 
