@@ -1,8 +1,7 @@
 #!/bin/bash
 
 #download node and npm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-. ~/.nvm/nvm.sh
+curl --silent --location https://rpm.nodesource.com/setup_14.x | sudo bash -
 nvm install node
 
 #create our working directory if it doesn't exist 
