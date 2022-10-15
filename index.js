@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = 3000;
 
 
 let path = require("path");
@@ -25,6 +26,6 @@ app.get("/", (req, res) => {
     });
 });
 
-app.listen(3000, () => console.log("Express App has started and server is listening!"));
+app.listen(port, () => console.log("Express App has started and server is listening!"));
 
 app.get('/', )

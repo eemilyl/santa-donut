@@ -11,6 +11,10 @@ export NVM_DIR="$Home/.nvm"
 
 #install node modules
 npm install
+npm i knex
+npm i mysql
+
 
 #start our node app in the background 
-node app.js > app.out.log 2> app.err.log < /dev/null &
+screen -d -m node index.js 
+# > app.out.log 2> app.err.log < /dev/null &
