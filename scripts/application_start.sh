@@ -18,6 +18,7 @@ sudo yum install -y nodejs
 npm install
 npm i knex
 npm i mysql
+npm i ejs
 
 
 #start our node app in the background 
